@@ -5,5 +5,47 @@
 }
 
 body{
-        
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #D5E1EF;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+#box{
+  max-width: 280px;
+  margin:auto auto;
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+#qrcode-img{
+  background-image: url(./images/image-qr-code.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  width: 230px;
+  height: 230px;
+  align: center;
+  border-radius: 10px;
+}
+
+#qrcode-img img{
+  max-width: 230px;
+  max-height: 230px;
+  width: auto;
+  height: auto;
+}
+
+#text h3{
+  font-size: 14px;
+}
+
+#text p{
+  font-size: 12px;
 }
